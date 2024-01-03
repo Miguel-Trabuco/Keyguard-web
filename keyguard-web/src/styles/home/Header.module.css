@@ -1,0 +1,12 @@
+.header{
+    height: 100vh;
+    background-color: #285cd7;
+}
+
+.logo{
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+    
+}
