@@ -3,10 +3,64 @@
     background-color: #285cd7;
 }
 
-.logo{
-    font-size: 2rem;
+.navBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2.5vh;
+    padding-left: 2vw;
+    padding-right: 4vw;
 }
 
+.logoBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*padding-top: 1.5vh;
+    padding-left: 4vw;*/
+}
+
+.logoIcon{
+    width: 2.6rem;
+    height: min-content;
+}
+
+.logoTitle{
+    font-size: 1.8rem;
+    color: #f9f8ff;
+}
+
+.menuIcon{
+    width: 2rem;
+    height: min-content;
+    display: none;
+}
+
+/*Mobile*/
 @media screen and (max-width: 480px) {
+    .navBox{
+        padding-left: 4vw;
+    }
+
+    .menuIcon{
+        display: block;
+    }
+}
+
+/*Tablet*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .navBox{
+        padding-left: 4vw;
+    }
+
+    .menuIcon{
+        display: block;
+    }
+}
+
+/*Large Screens*/
+@media screen and (min-width: 1025px){
     
 }

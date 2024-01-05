@@ -1,0 +1,25 @@
+@media screen and (min-width: 769px) {
+    .menuBox {
+        display: none;
+    }
+}
+
+.menuBox{
+    position: absolute;
+    top: 10vh;
+    right: 0;
+    height: 100vh;
+    transform: translateX(100%);
+    z-index: 10;
+    transition-duration: 0.5s;
+}
+
+.openMenuBox{
+    position: absolute;
+    top: 10vh;
+    right: 0;
+    height: 100vh;
+    transform: translateX(0%);
+    z-index: 10;
+    transition-duration: 0.5s;
+}

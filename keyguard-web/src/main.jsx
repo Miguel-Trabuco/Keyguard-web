@@ -6,23 +6,23 @@ import { Home, Signup, Login, ResetPassword, Dashboard } from './components/page
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: '/',
     element: <Home />,
   },
   {
-    path: "/signup",
+    path: '/signup',
     element: <Signup />,
   },
   {
-    path: "/login",
+    path: '/login',
     element: <Login />,
   },
   {
-    path: "/reset-password",
+    path: '/reset-password',
     element: <ResetPassword />,
   },
   {
-    path: "/dashboard",
+    path: '/dashboard',
     element: <Dashboard />,
   },
 ]);
